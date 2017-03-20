@@ -1,14 +1,14 @@
 {
-  "name": "fsalum-newrelic",
+  "name": "caherrera-newrelic",
   "version": "4.3.0",
-  "source": "git://github.com/fsalum/puppet-newrelic.git",
-  "author": "Felipe Salum",
+  "source": "git://github.com/caherrera/puppet-newrelic.git",
+  "author": "Carlos Herrera",
   "license": "Apache-2.0",
   "summary": "Puppet module for NewRelic",
   "description": "Module to install and configure New Relic server monitoring and New Relic PHP Agent",
-  "project_page": "https://github.com/fsalum/puppet-newrelic",
-  "issues_url": "https://github.com/fsalum/puppet-newrelic/issues",
-  "source": "git://github.com/fsalum/puppet-newrelic.git",
+  "project_page": "https://github.com/caherrera/puppet-newrelic",
+  "issues_url": "https://github.com/caherrera/puppet-newrelic/issues",
+  "source": "git://github.com/caherrera/puppet-newrelic.git",
   "tags": ["newrelic", "monitoring", "metrics"],
   "operatingsystem_support": [
     {
@@ -23,7 +23,8 @@
         "operatingsystemrelease": [
           "12.04",
           "13.10",
-          "14.04"
+          "14.04",
+          "16.04"
         ]
       },
       {
