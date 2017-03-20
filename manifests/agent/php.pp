@@ -83,6 +83,8 @@ class newrelic::agent::php (
     fail('You must specify a valid License Key.')
   }
 
+  Apt::Source['newrelic'] -> Class['apt::update'] -> Package[$newrelic_php_package]
+
   package { $newrelic_php_package:
     ensure  => $newrelic_php_package_ensure,
     require => Class['newrelic::params'],
