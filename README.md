@@ -1,8 +1,9 @@
 Newrelic Module for Puppet
 ==========================
-[![puppet-newrelic](https://img.shields.io/puppetforge/v/fsalum/newrelic.svg)](https://forge.puppetlabs.com/fsalum/newrelic) [![Build Status](https://secure.travis-ci.org/fsalum/puppet-newrelic.png)](http://travis-ci.org/fsalum/puppet-newrelic)
+[![puppet-newrelic](https://img.shields.io/puppetforge/v/fsalum/newrelic.svg)](https://forge.puppetlabs.com/caherrera/newrelic) [![Build Status](https://secure.travis-ci.org/fsalum/puppet-newrelic.png)](http://travis-ci.org/fsalum/puppet-newrelic)
 
 This module manages and installs the New Relic Server Monitoring and PHP agents.  
+Fork from fsalum-newrelic module
 
 Supported systems: Debian and RHEL osfamily Linux.
 
